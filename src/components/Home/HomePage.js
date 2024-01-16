@@ -1,6 +1,5 @@
 // Import React and any other necessary dependencies
 import React, { useEffect, useState } from 'react';
-import About from '../About/About';
 import HomePage2 from './HomePage2';
 import HomepageBottom from './HomepageBottom';
 import Footer from '../Footer/Footer';
@@ -9,7 +8,6 @@ import ShowcaseSection from './ShowcaseSection';
 import CurtinOpenDay from '../Work/CurtinOpenday';
 import WorkCard from '../Work/WorkCard';
 import TrailsWA from '../Work/TrailsWA';
-import FeedItem from '../Blog/FeedItem';
 
 // Define your React component
 const HomePage = () => {
@@ -88,7 +86,6 @@ const HomePage = () => {
  
 
       <HomepageBottom/>
-      <FeedItem />
      
       <Footer />
       <FooterBottom />

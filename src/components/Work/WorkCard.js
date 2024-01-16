@@ -4,9 +4,9 @@ import CaseStudySidebar from './CaseStudySidebar';
 const WorkCard = ({ title, thumbnailSrc, innerThumbnailSrc, details }) => {
   const [isSidebarOpen, setIsSidebarOpen] = useState(false);
 
-  const handleCardClick = () => {
-    setIsSidebarOpen(true);
-  };
+  // const handleCardClick = () => {
+  //   setIsSidebarOpen(true);
+  // };
 
   const handleSidebarClose = () => {
     setIsSidebarOpen(false);
