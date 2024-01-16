@@ -1,0 +1,11 @@
+/* HomePage.css */
+
+.fade-in {
+    opacity: 1;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  .page_homepage__06uL1 {
+    opacity: 0;
+  }
+  
