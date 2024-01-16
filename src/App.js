@@ -6,7 +6,7 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import HomePage from './components/Home/HomePage';
 import CurtinOpenDay from './components/Work/CurtinOpenday';
-import CaseStudySidebar from './components/Work/CaseStudySidebar';
+// import CaseStudySidebar from './components/Work/CaseStudySidebar';
 import Work from './components/Work/Work';
 function App() {
   useEffect(() => {
