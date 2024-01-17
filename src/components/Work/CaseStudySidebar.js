@@ -7,10 +7,11 @@ const CaseStudySidebar = () => {
         <div className="CaseStudySidebar_sidebar__header__LkH2l">
           <h1 className="CaseStudySidebar_sidebar__title__P_GUC">Curtin Open Day</h1>
           <a
-            className="Button_button-wrapper__2Ps4h"
-            target="_blank"
-            href="https://www.curtin.edu.au/open-day/"
-          >
+  className="Button_button-wrapper__2Ps4h"
+  target="_blank"
+  rel="noreferrer"  // Add this line to address the warning
+  href="https://www.curtin.edu.au/open-day/"
+>
             <span className="Button_button__lQZdm Button_button--icon__Me_aL Button_button--bg-secondary__6flN1" style={{ transform: 'translateX(0%) translateY(0%) rotate(0deg) translateZ(0px)' }}>
               Visit Website
               <svg

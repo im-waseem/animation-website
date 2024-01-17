@@ -31,7 +31,7 @@ const CurtinOpenDay = () => {
                 loop
                 preload="none"
                 aria-describedby="video-description-0-0"
-                style={{paddingTop:"90px",marginLeft: "10px"}}
+                style={{paddingTop:"90px"}}
               >
                 <source
                   src="https://player.vimeo.com/progressive_redirect/playback/895729829/rendition/720p/file.mp4?loc=external&amp;log_user=0&amp;signature=a4af87be7154edb7c1c1a2ebbc454f2c9ca39ce762345f43ff4bf48a898335d8"
