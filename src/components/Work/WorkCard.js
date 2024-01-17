@@ -15,7 +15,7 @@ const WorkCard = ({ title, thumbnailSrc, innerThumbnailSrc, details }) => {
   return (
     <div className="WorkCard_work-card-wrapper__7mGrZ" style={{ '--aspect-x': 710, '--aspect-y': 890, opacity: 1, transform: 'translateY(0px)' }}>
       <a className="WorkCard_work-card__Z7y63 WorkCard_work-card--portrait__WHYgm" href={details.link}>
-        <div className="WorkCard_work-card__thumbnail-wrapper__DZTs2">
+        <div style={{margin: "30px"}} className="WorkCard_work-card__thumbnail-wrapper__DZTs2">
           <div className="WorkCard_work-card__thumbnail-outer__kJvp9" style={{ transform: 'translateY(-50%) translateZ(0px)' }}>
             <picture className="Picture_picture__X3Eos WorkCard_work-card__picture__CqjRI">
               <source srcSet={thumbnailSrc.mobile} media="(min-width: 0px) and (max-width: 479px)" />

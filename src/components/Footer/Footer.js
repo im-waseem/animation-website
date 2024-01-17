@@ -67,8 +67,8 @@ const Footer = () => {
           <div className="FooterSimpleContents_footer-columns__lcGTG footer-columns">
             <div className="FooterSimpleContents_footer-columns__column__28cg0">
               <h3>Speak to us</h3>
-              <a href="tel:1800%20486%20123">1800 486 123</a>
-              <a href="mailto:contact@humaan.com">contact@humaan.com</a>
+              <a href="tel:1800%20486%20123">+917022831935</a>
+              <a href="mailto:contact@humaan.com">waseemakram060396@gmail.com</a>
             </div>
             <div className="FooterSimpleContents_footer-columns__column__28cg0 FooterSimpleContents_footer-columns__column--address__Rjvwg">
               <h3>Perth</h3>
