@@ -2,7 +2,7 @@ import React from 'react';
 
 const TrailsWA = () => {
   return (
-    <div className="WorkGrid_work-grid__row__p9SUz WorkGrid_work-grid__row--landscape__klf5g">
+    <div className="  WorkGrid_work-grid__row__p9SUz WorkGrid_work-grid__row--landscape__klf5g">
       <div className="WorkCard_work-card-wrapper__7mGrZ" style={{ '--aspect-x': 1452, '--aspect-y': 890, opacity: 1, transform: 'translateY(0px)' }}>
         <a className="WorkCard_work-card__Z7y63 WorkCard_work-card--landscape__cw0_a" href="/work/trailswa">
           <div className="WorkCard_work-card__thumbnail-wrapper__DZTs2">

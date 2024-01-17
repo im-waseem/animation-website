@@ -24,7 +24,7 @@ const HomepageLogos = () => {
   }, []);
 
   return (
-    <div className="HomepageLogos_homepage-logos__76775" style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', height: '150px' }}>
+    <div className="HomepageLogos_homepage-logos__76775 page_homepage__06uL1" style={{ display: 'flex', justifyContent: 'space-around', alignItems: 'center', height: '150px' }}>
       {visibleLogos.map((isVisible, index) => (
         <img
           key={index}

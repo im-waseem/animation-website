@@ -54,7 +54,7 @@ const ContactFooter = () => {
         </div>
         <ul className="FooterSimpleContents_footer-socials__7wzOx">
           <li className="FooterSimpleContents_footer-socials__item__9hVW0">
-            <a className="Button_button-wrapper__2Ps4h" target="_blank" href="https://x.com/wearehumaan">
+            <a className="Button_button-wrapper__2Ps4h" target="_blank" href="https://twitter.com/WaseemA76708271">
               <span className="Button_button__lQZdm Button_button--bg-transparent__4_NCr" style={{ transform: 'translateX(0%) translateY(0%) rotate(0deg) translateZ(0)' }}>
                 <span><s>Twitter</s> X</span>
               </span>
@@ -64,7 +64,7 @@ const ContactFooter = () => {
             </svg>
           </li>
           <li className="FooterSimpleContents_footer-socials__item__9hVW0">
-            <a className="Button_button-wrapper__2Ps4h" target="_blank" href="https://instagram.com/wearehumaan">
+            <a className="Button_button-wrapper__2Ps4h" target="_blank" href="">
               <span className="Button_button__lQZdm Button_button--bg-transparent__4_NCr" style={{ transform: 'translateX(0%) translateY(0%) rotate(0deg) translateZ(0)' }}>
                 <span>Instagram</span>
               </span>
@@ -74,7 +74,7 @@ const ContactFooter = () => {
             </svg>
           </li>
           <li className="FooterSimpleContents_footer-socials__item__9hVW0">
-            <a className="Button_button-wrapper__2Ps4h" target="_blank" href="https://www.linkedin.com/company/humaan/posts/">
+            <a className="Button_button-wrapper__2Ps4h" target="_blank" href="https://www.linkedin.com/in/iamwaseem060396/">
               <span className="Button_button__lQZdm Button_button--bg-transparent__4_NCr" style={{ transform: 'translateX(0%) translateY(0%) rotate(0deg) translateZ(0)' }}>
                 <span>LinkedIn</span>
               </span>

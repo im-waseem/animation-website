@@ -25,7 +25,7 @@ const HomePage2 = () => {
     }
   };
   return (
-    <div className="page_homepage__purple-change__jZXd6">
+    <div className="page_homepage__purple-change__jZXd6 page_homepage__06uL1">
       <div className=""></div>
       <div className="HomepageShowreel_showreel-wrapper__34lEW page_homepage__showreel__Tgw78">
         <div className="HomepageShowreel_showreel__0_0mY" style={{ '--progress': 0, transform: 'translateY(0vh) translateZ(0px)' }}>

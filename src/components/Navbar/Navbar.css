@@ -1,0 +1,15 @@
+.Header_menu__hover-pill__NFAxL {
+    height: 10px; /* Adjust the height as needed */
+    background-color: #00f; /* Adjust the background color as needed */
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%) scaleX(0); /* Initial scale is 0, making it invisible */
+    transform-origin: bottom center;
+    transition: transform 0.3s ease;
+  }
+  
+  .Header_menu__hover-pill__NFAxL:hover {
+    transform: translateX(-50%) scaleX(1); /* When hovering, scale to 1 */
+  }
+  

@@ -8,6 +8,7 @@ import ShowcaseSection from './ShowcaseSection';
 import CurtinOpenDay from '../Work/CurtinOpenday';
 import WorkCard from '../Work/WorkCard';
 import TrailsWA from '../Work/TrailsWA';
+import FeedItem from '../Navbar/FeedItem';
 
 // Define your React component
 const HomePage = () => {
@@ -28,69 +29,53 @@ const HomePage = () => {
   return (
     <div className="page_homepage__06uL1">
       <div className={`page_homepage__hero__7HVdw ${animationClass}`}>
-        <h1 className="page_homepage__heading__rG9o9">
-          <span style={{
-            fontSize: 'clamp(8.125rem, 8.5978835979vw, 10.80625rem)',
-            margin: '0',
-            marginTop: '0px',
-            marginRight: '0px',
-            marginBottom: '0px',
-            marginLeft: '0px',
-            paddingTop: 'clamp(3.125rem, 3.3068783069vw, 4.15625rem)',
-            paddingBottom: 'clamp(3.125rem, 3.3068783069vw, 4.15625rem)',
-            maxWidth: 'clamp(68.75rem, 72.7513227513vw, 91.4375rem)',
-            lineHeight: '.92',
-          }}>
-            <span className="bold-letter">E</span>
-            <span className="bold-letter">x</span>
-            <span className="bold-letter">t</span>
-            <span className="bold-letter">r</span>
-            <span className="bold-letter">a</span>
-            <span className="bold-letter">o</span>
-            <span className="bold-letter">r</span>
-            <span className="bold-letter">d</span>
-            <span className="bold-letter">i</span>
-            <span className="bold-letter">n</span>
-            <span className="bold-letter">a</span>
-            <span className="bold-letter">r</span>
-            <span className="bold-letter">y</span>
+        <h1 className="page_homepage__heading__rG9o9 animate-heading">
+          <span className="bold-letter">
+            <span>E</span>
+            <span>x</span>
+            <span>t</span>
+            <span>r</span>
+            <span>a</span>
+            <span>o</span>
+            <span>r</span>
+            <span>d</span>
+            <span>i</span>
+            <span>n</span>
+            <span>a</span>
+            <span>r</span>
+            <span>y</span>
             <span> </span>
-            <span className="bold-letter">D</span>
-            <span className="bold-letter">i</span>
-            <span className="bold-letter">g</span>
-            <span className="bold-letter">i</span>
-            <span className="bold-letter">t</span>
-            <span className="bold-letter">a</span>
-            <span className="bold-letter">l</span>
+            <span>D</span>
+            <span>i</span>
+            <span>g</span>
+            <span>i</span>
+            <span>t</span>
+            <span>a</span>
+            <span>l</span>
             <span> </span>
-            <span className="bold-letter">E</span>
-            <span className="bold-letter">x</span>
-            <span className="bold-letter">p</span>
-            <span className="bold-letter">e</span>
-            <span className="bold-letter">r</span>
-            <span className="bold-letter">i</span>
-            <span className="bold-letter">e</span>
-            <span className="bold-letter">n</span>
-            <span className="bold-letter">c</span>
-            <span className="bold-letter">e</span>
-            <span className="bold-letter">s</span>
+            <span>E</span>
+            <span>x</span>
+            <span>p</span>
+            <span>e</span>
+            <span>r</span>
+            <span>i</span>
+            <span>e</span>
+            <span>n</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
           </span>
         </h1>
       </div>
+      <FeedItem />
       <HomePage2 />
- 
       <ShowcaseSection />
-      <CurtinOpenDay/>
-  <WorkCard />
-  <TrailsWA/>
- 
-
-      <HomepageBottom/>
-     
+      <CurtinOpenDay />
+      <WorkCard />
+      <TrailsWA />
+      <HomepageBottom />
       <Footer />
       <FooterBottom />
-    
-    
     </div>
   );
 };

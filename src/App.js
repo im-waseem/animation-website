@@ -6,8 +6,9 @@ import About from './components/About/About';
 import Contact from './components/Contact/Contact';
 import HomePage from './components/Home/HomePage';
 import CurtinOpenDay from './components/Work/CurtinOpenday';
-// import CaseStudySidebar from './components/Work/CaseStudySidebar';
 import Work from './components/Work/Work';
+import './index.css';
+
 function App() {
   useEffect(() => {
     // Add the specified classes to the body element on mount
@@ -21,7 +22,7 @@ function App() {
 
   return (
     <Router>
-      <div className="app-container">
+      <div className="app-container my-custom-class"> {/* Add your custom class here */}
         <Navbar />
         <Switch>
           <Route path="/home" exact component={Home} />
@@ -30,8 +31,6 @@ function App() {
           <Route path="/contact" component={Contact} />
           <Route path="/work/curtin-open-day" component={CurtinOpenDay} />
           <Route path="/work" component={Work} />
-
-
         </Switch>
       </div>
     </Router>
